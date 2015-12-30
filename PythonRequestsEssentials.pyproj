@@ -98,6 +98,7 @@
     <Folder Include="survery_project\survey\templates\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".gitignore" />
     <Content Include="scraping_example.html" />
     <Content Include="Python Requests Essentials_Code\Chapter06\words.json" />
     <Content Include="Python Requests Essentials_Code\Chapter07\survey_project\survey\app.db" />

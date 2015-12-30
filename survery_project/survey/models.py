@@ -1,3 +1,7 @@
+""" Survey app models """
+
+from datetime import datetime
+from survey import db
 
 
 class Question(db.Model):
