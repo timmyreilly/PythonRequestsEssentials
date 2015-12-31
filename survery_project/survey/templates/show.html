@@ -1,0 +1,22 @@
+﻿{% extends "base.html" %}
+
+{% block content %}
+    <div>
+        <p>
+            {% if question %}
+                <p>{{ question.question_text }}</p>
+                <ul>
+                    <li>Yes - {{ question.number_of_yest_votes }}</li>
+                    <li>No - {{ question.number_of_no_votes }}</li>
+                    <li>Maybe - {{ question.number_of_maybe_votes }}</li>
+                </ul>
+                <p><a href="/questions/{{ question.id }}/vote">Cast your vote now</a></p>
+            {% else %}
+                Not match found!
+            {% endif %}
+        </p>
+    </div>
+
+<hr />
+
+{% endblock %}

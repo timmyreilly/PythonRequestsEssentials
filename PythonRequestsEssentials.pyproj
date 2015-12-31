@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2adae0dd-2f9f-45cf-a294-1fd948a3685d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>scrapperbotone.py</StartupFile>
+    <StartupFile>survery_project\__init__.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -110,6 +110,11 @@
     <Content Include="survery_project\survey\app.db">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="survery_project\survey\templates\base.html" />
+    <Content Include="survery_project\survey\templates\index.html" />
+    <Content Include="survery_project\survey\templates\new.html" />
+    <Content Include="survery_project\survey\templates\show.html" />
+    <Content Include="survery_project\survey\templates\vote.html" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
