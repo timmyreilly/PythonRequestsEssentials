@@ -24,19 +24,19 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Python Requests Essentials_Code\Chapter04\dynamic_responses.py" />
-    <Compile Include="Python Requests Essentials_Code\Chapter04\rotating_responses.py" />
-    <Compile Include="Python Requests Essentials_Code\Chapter04\setting_headers.py" />
-    <Compile Include="Python Requests Essentials_Code\Chapter04\streaming_responses.py" />
-    <Compile Include="Python Requests Essentials_Code\Chapter04\usage_in_detail.py" />
-    <Compile Include="Python Requests Essentials_Code\Chapter04\using_decorator.py" />
-    <Compile Include="Python Requests Essentials_Code\Chapter06\gre_word_list.py" />
-    <Compile Include="Python Requests Essentials_Code\Chapter07\survey_project\server.py" />
-    <Compile Include="Python Requests Essentials_Code\Chapter07\survey_project\survey\models.py" />
-    <Compile Include="Python Requests Essentials_Code\Chapter07\survey_project\survey\tests.py" />
-    <Compile Include="Python Requests Essentials_Code\Chapter07\survey_project\survey\views.py" />
-    <Compile Include="Python Requests Essentials_Code\Chapter07\survey_project\survey\__init__.py" />
-    <Compile Include="Python Requests Essentials_Code\Chapter07\survey_project\__init__.py" />
+    <Compile Include="Textbookstuff\Chapter04\dynamic_responses.py" />
+    <Compile Include="Textbookstuff\Chapter04\rotating_responses.py" />
+    <Compile Include="Textbookstuff\Chapter04\setting_headers.py" />
+    <Compile Include="Textbookstuff\Chapter04\streaming_responses.py" />
+    <Compile Include="Textbookstuff\Chapter04\usage_in_detail.py" />
+    <Compile Include="Textbookstuff\Chapter04\using_decorator.py" />
+    <Compile Include="Textbookstuff\Chapter06\gre_word_list.py" />
+    <Compile Include="Textbookstuff\Chapter07\survey_project\server.py" />
+    <Compile Include="Textbookstuff\Chapter07\survey_project\survey\models.py" />
+    <Compile Include="Textbookstuff\Chapter07\survey_project\survey\tests.py" />
+    <Compile Include="Textbookstuff\Chapter07\survey_project\survey\views.py" />
+    <Compile Include="Textbookstuff\Chapter07\survey_project\survey\__init__.py" />
+    <Compile Include="Textbookstuff\Chapter07\survey_project\__init__.py" />
     <Compile Include="scraping.py">
       <SubType>Code</SubType>
     </Compile>
@@ -87,26 +87,26 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="survery_project\" />
-    <Folder Include="Python Requests Essentials_Code\" />
-    <Folder Include="Python Requests Essentials_Code\Chapter04\" />
-    <Folder Include="Python Requests Essentials_Code\Chapter06\" />
-    <Folder Include="Python Requests Essentials_Code\Chapter07\" />
-    <Folder Include="Python Requests Essentials_Code\Chapter07\survey_project\" />
-    <Folder Include="Python Requests Essentials_Code\Chapter07\survey_project\survey\" />
-    <Folder Include="Python Requests Essentials_Code\Chapter07\survey_project\survey\templates\" />
+    <Folder Include="Textbookstuff\" />
+    <Folder Include="Textbookstuff\Chapter04\" />
+    <Folder Include="Textbookstuff\Chapter06\" />
+    <Folder Include="Textbookstuff\Chapter07\" />
+    <Folder Include="Textbookstuff\Chapter07\survey_project\" />
+    <Folder Include="Textbookstuff\Chapter07\survey_project\survey\" />
+    <Folder Include="Textbookstuff\Chapter07\survey_project\survey\templates\" />
     <Folder Include="survery_project\survey\" />
     <Folder Include="survery_project\survey\templates\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
     <Content Include="scraping_example.html" />
-    <Content Include="Python Requests Essentials_Code\Chapter06\words.json" />
-    <Content Include="Python Requests Essentials_Code\Chapter07\survey_project\survey\app.db" />
-    <Content Include="Python Requests Essentials_Code\Chapter07\survey_project\survey\templates\base.html" />
-    <Content Include="Python Requests Essentials_Code\Chapter07\survey_project\survey\templates\index.html" />
-    <Content Include="Python Requests Essentials_Code\Chapter07\survey_project\survey\templates\new.html" />
-    <Content Include="Python Requests Essentials_Code\Chapter07\survey_project\survey\templates\show.html" />
-    <Content Include="Python Requests Essentials_Code\Chapter07\survey_project\survey\templates\vote.html" />
+    <Content Include="Textbookstuff\Chapter06\words.json" />
+    <Content Include="Textbookstuff\Chapter07\survey_project\survey\app.db" />
+    <Content Include="Textbookstuff\Chapter07\survey_project\survey\templates\base.html" />
+    <Content Include="Textbookstuff\Chapter07\survey_project\survey\templates\index.html" />
+    <Content Include="Textbookstuff\Chapter07\survey_project\survey\templates\new.html" />
+    <Content Include="Textbookstuff\Chapter07\survey_project\survey\templates\show.html" />
+    <Content Include="Textbookstuff\Chapter07\survey_project\survey\templates\vote.html" />
     <Content Include="survery_project\survey\app.db">
       <SubType>Code</SubType>
     </Content>

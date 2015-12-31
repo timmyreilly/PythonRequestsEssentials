@@ -25,6 +25,12 @@ def create_questions():
     context = {'questions': Question.query.all(), 'message': message}
     return render_template('index.html', **context) 
 
+@app.route('/questions', methods=['GET'])
+def index_questions():
+    questions = Question.query.all()
+    context = {'questions': questions, 'number_of_questions': len(questions)}
+    return render_template('index.html', **context)
+
 @app.route('/questions/<int:question_id>', methods=['GET'])
 def show_questions(question_id):
     context = {'question': Question.query.get(question_id)}
