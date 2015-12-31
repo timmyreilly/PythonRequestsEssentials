@@ -1,5 +1,6 @@
 tokens.py
 
+/PythonRequestsEssentials/
 # Python cache
 __pycache__/
 *.pyc
