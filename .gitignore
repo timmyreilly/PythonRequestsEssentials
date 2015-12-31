@@ -1,6 +1,5 @@
 tokens.py
 
-
 # Python cache
 __pycache__/
 *.pyc
@@ -26,6 +25,7 @@ __pycache__/
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
+app.db 
 
 # Folder config file
 Desktop.ini
